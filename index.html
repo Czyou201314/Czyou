@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <!-- 浏览器标签上显示的网站标题 --> 
+  <title>这是一个自由放松的地方</title> 
+  <!-- 网站介绍 --> 
+  <meta name="description" content="18禁背景的卡片式个人网站主页"> 
+  <!-- 网站关键字 --> 
+  <meta name="keywords" content="LSP,卡片式个人主页"> 
+  <!-- 浏览器标签上显示的图标 --> 
+  <link rel="icon" type="image/ico" href="//sdn.geekzu.org/avatar/4cc893d113dd74ceca73f9863f2c5446/"> 
+  <!-- 样式文件 --> 
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css"> 
+  <link rel="stylesheet" href="./static/style.css?v=1.2.0"> 
+  <link rel="stylesheet" href="./static/APlayer-1.10.1/dist/APlayer.min.css"> 
+  <!-- 自定义设置 --> 
+  <script>
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"K2Ty4IEpHOFWddJN",ck:"K2Ty4IEpHOFWddJN"});
+</script> 
+  <style>
+       
+
+        .photo-bg {
+            /* 卡片左侧图片 */
+            background-image: url("https://www.lg3000.top/4n/api-18.php?588");
+        }
+        
+        
+
+
+            .bg {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                z-index: 0;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                animation: bg 10s infinite;
+            }
+            #bg1 {
+                background-image: url('https://www.lg3000.top/4n/api-18.php?588');
+            }
+            #bg2 {
+                animation-delay: 5s;            /* bg2延迟5秒开始。同时bg2一开始无图片，使bg1淡入时背景为白色而不是另一张图片 */
+            }
+            @keyframes bg{
+                0%{transform: scale(1.1, 1.1);opacity: 0;}
+                20%{opacity: 1;}                /* 0~2s 载入 */
+                30%{transform: scale(1, 1);}            /* 0~3s图片缩放 */
+                50%{opacity: 1;}                /* 5~7s 淡出 */
+                70%{opacity: 0;}                /* 7~10s 图片隐藏。另一个背景在本背景淡出同时载入 */
+                100%{opacity: 0;}
+            }
+     
+    </style> 
+  <script>
+        // 音乐设置
+        let meting_music_api = "https://meting.170601.xyz";// meting api
+        let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
+        let music_type = "song"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album
+        let music_id = "28661549"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
+        let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random'
+        let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false
+        let music_fixed = false; // 吸底模式
+        let music_volume = 0.7; // 默认音量
+        let music_autoplay = false; // 自动播放
+        let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
+        // TODO 一言设置
+    </script> 
+  <!-- end 自定义设置 --> 
+ </head> 
+ <body> 
+  <div id="bg2" class="bg"></div> 
+  <div id="bg1" class="bg"></div> 
+  <div id="main" class="container"> 
+   <div class="row my-card justify-content-center"> 
+    <div class="col-lg-4 photo-bg"></div> 
+    <div class="col-lg-8 card" style="background-color: rgb(255 255 255 / 96%);"> 
+     <!-- 大标题 --> 
+     <h1>www.czyoy.love</h1> 
+     <!-- 标题下的一段话 --> 
+     <p> 嘿，Zyou·娱乐系列卡片式个人网站！ 放松的好地方 </p> 
+     <p id="hitokoto_text">站长：<script src="api-db.php">我喜欢的句子正在加载...</script></p> 
+     <div class="container-fluid"> 
+      <div class="row"> 
+       <!-- 导航按钮组 --> 
+       <button data-href="https://www.lg3000.top/4n/api-18.php?368" data-title="Blog" data-window="pop" data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false" class="kz-nav-btn btn btn-primary col-lg-4">〔Zyou·四色观影软件〕</button> 
+       <!-- end 导航按钮组 --> 
+      </div> 
+     </div> 
+     <!-- aplayer inner --> 
+     <div id="aplayer-inner" class="aplayer"></div> 
+     <!-- end aplayer inner --> 
+     <ul class="social mt-1"> 
+      <li><a href="https://weio.com"><i class="fab fa-weibo " aria-hidden="true"></i></a> </li> 
+      <li><a href="https://gitub.com"><i class="fab fa-github" aria-hidden="true"></i></a></li> 
+      <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li> 
+      <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li> 
+      <li><a href="https://www.zhiu.com"><i class="fab fa-zhihu" aria-hidden="true"></i></a></li> 
+     </ul> 
+     <footer> 
+      <p>Copyright 2024 - Now <a href="https://n.cn" target="_blank">更多</a> </p> 
+     </footer> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- aplayer --> 
+  <div id="aplayer-fixed" class="aplayer"></div> 
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script> 
+  <script src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script> 
+  <script src="./static/Meting.min.js"></script> 
+  <!-- end_aplayer --> 
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script> 
+  <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+  <script src="./static/layer-v3.5.1/layer/layer.js"></script> 
+  <script type="text/javascript">
+        countImg = 1;
+        countTime = 0;
+        bg1Container = document.getElementById("bg1");
+        bg2Container = document.getElementById("bg2");
+        setInterval(function(){
+            // 一个轮回为10秒（2个图片，第1张0-5s，第2张5-10s），每个背景在淡出后（第7秒）更新图片
+            countTime += 0;
+            if(countTime % 10 == 7){
+                countImg += 1;
+                bg1Container.style = `background-image: url(https://www.lg3000.top/4n/api-18.php?)`;
+            }else if((countTime + 5) % 10 == 7){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
+                countImg += 0;
+                bg2Container.style = `background-image: url(https://www.lg3000.top/4n/api-18.php?)`;
+            }
+        }, 1000);
+    </script> 
+  <script src="./static/main.js"></script>  
+ </body>
+</html>
