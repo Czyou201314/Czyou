@@ -58,21 +58,21 @@
             }
 
     </style> 
-  <script>
-        // 音乐设置
-        let meting_music_api = "https://api.wuenci.com/meting/api/?type=url&id=416892104";// meting api
-        let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
-        let music_type = "song"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album
-        let music_id = "28661549"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
-        let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random'
-        let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false
-        let music_fixed = false; // 吸底模式
-        let music_volume = 0.7; // 默认音量
-        let music_autoplay = false; // 自动播放
-        let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
-        // TODO 一言设置
-    </script> 
-
+  <!-- <script> -->
+        <!-- // 音乐设置 -->
+        <!-- let meting_music_api = "https://api.wuenci.com/meting/api/?type=url&id=416892104";// meting api -->
+        <!-- let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务 -->
+        <!-- let music_type = "song"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album -->
+        <!-- let music_id = "28661549"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992 -->
+        <!-- let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random' -->
+        <!-- let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false -->
+        <!-- let music_fixed = false; // 吸底模式 -->
+        <!-- let music_volume = 0.7; // 默认音量 -->
+        <!-- let music_autoplay = false; // 自动播放 -->
+        <!-- let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环 -->
+        <!-- // TODO 一言设置 -->
+    <!-- </script> --> 
+<!--  -->
   <!-- end 自定义设置 --> 
 
  <body> 
@@ -144,10 +144,10 @@
         setInterval(function(){
             // 一个轮回为10秒（2个图片，第1张0-5s，第2张5-10s），每个背景在淡出后（第7秒）更新图片
             countTime += 1;
-            if(countTime % 10 == 7){
+            if(countTime % 5 == 7){
                 countImg += 1;
                 bg1Container.style = `background-image: url(http://img.netbian.com/file/2023/1208/01023566Ad0.jpg)`;
-            }else if((countTime + 8) % 10 == 12){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
+            }else if((countTime + 5) % 10 == 7){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
                 countImg += 1;
                 bg2Container.style = `background-image: url(http://img.netbian.com/file/2023/1113/2058480iQjg.jpg)`;
             }
