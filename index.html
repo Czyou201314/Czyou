@@ -60,7 +60,7 @@
     </style> 
   <script>
         // 音乐设置
-        let meting_music_api = "https://api.yaohud.cn/api/music/wy?key=DprNpMCrbGqjRgM25L8";// meting api
+        let meting_music_api = "https://api.wuenci.com/meting/api/?type=url&id=416892104";// meting api
         let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
         let music_type = "song"; // 歌曲类型：歌单playlist 单首歌曲 song  专辑 album
         let music_id = "28661549"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
@@ -72,19 +72,28 @@
         let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
         // TODO 一言设置
     </script> 
+
   <!-- end 自定义设置 --> 
- </head> 
+
  <body> 
   <div id="bg2" class="bg"></div> 
   <div id="bg1" class="bg"></div> 
   <div id="main" class="container"> 
 <div class="row my-card justify-content-center"> 
+
+ </head> 
+      <audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+                src="http://ws.stream.qqmusic.qq.com/F000001Jccxp4WTwHr.flac?guid=659d41873c49e&vkey=1312CFC9BA88598123BDE8F76FB97D9D16D7DE571FA04297FA284D794F1A90D77867A1118E00E940E8F442AF6ECD79146575B7DF154E6A52&uin=2354452553&fromtag=124114">
+    </audio>
     <div class="col-lg-4 photo-bg"></div> 
     <div class="col-lg-8 card" style="background-color: rgb(155 235 255 / 76%);"> 
-     <!-- 大标题 --> 
-     <h1>♥️娱乐·天青㵘追影＞＞</h1> 
+     <!-- 大标题 -->
+     
+     <h1>
+     <img src="https://czyou.pages.dev/static/001.png"  hieght="40" width="40" alt="我的">
+     娱乐·天青淼追影＞＞</h1> 
      <!-- 标题下的一段话 --> 
-     <p> 嘿，Zyou·娱乐系列卡片式个人简站！ 一处让人放松的地方！总有一款适合你!</p> 
+     <p> 嘿，Zyou·系列个人简站！一人时光何处倚托！四水软件总有一款适合你!</p> 
      <!-- 导航按钮组 --> 
 
     <div class="container-fluid"> 
@@ -127,5 +136,7 @@
    <script src="./static/layer-v3.5.1/layer/layer.js"></script> 
    <script src="./static/main.js"></script>   
   </div>
+  
+ 
  </body>
-              </html>
+</html>
