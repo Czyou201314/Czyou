@@ -144,10 +144,10 @@
         setInterval(function(){
             // 一个轮回为10秒（2个图片，第1张0-5s，第2张5-10s），每个背景在淡出后（第7秒）更新图片
             countTime += 1;
-            if(countTime % 10 == 17){
+            if(countTime % 10 == 10){
                 countImg += 1;
                 bg1Container.style = `background-image: url(http://img.netbian.com/file/2023/1208/01023566Ad0.jpg)`;
-            }else if((countTime + 15) % 10 == 27){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
+            }else if((countTime + 5) % 10 == 15){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
                 countImg += 1;
                 bg2Container.style = `background-image: url(http://img.netbian.com/file/2023/1113/2058480iQjg.jpg)`;
             }
