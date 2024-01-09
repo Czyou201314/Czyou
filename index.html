@@ -40,7 +40,7 @@
                 background-repeat: no-repeat;
                 background-attachment: fixed;
                 background-size: cover;
-                animation: bg 10s infinite;
+                animation: bg 15s infinite;
             }
             #bg1 {
                 background-image: url('http://img.netbian.com/file/2023/1208/005906s6erN.jpg');
@@ -54,7 +54,7 @@
                 80%{transform: scale(1, 1);}            /* 0~3s图片缩放 */
                 90%{opacity: 1;}                /* 5~7s 淡出 */
                 100%{opacity: 0;}                /* 7~10s 图片隐藏。另一个背景在本背景淡出同时载入 */
-                90%{opacity: 0;}
+                100%{opacity: 0;}
             }
 
     </style> 
@@ -90,7 +90,7 @@
      <!-- 大标题 -->
      
      <h1>
-     <img src="https://czyou.pages.dev/static/001.png"  hieght="50" width="50" alt="我的">
+     <img src="https://czyou.pages.dev/static/001.png"  hieght="40" width="40" alt="我的">
      娱乐·天青淼追影＞＞</h1> 
      <!-- 标题下的一段话 --> 
      <p> 嘿，Zyou·系列个人简站！一人时光何处倚托！四水软件总有一款适合你!</p> 
@@ -149,9 +149,9 @@
                 bg1Container.style = `background-image: url(http://img.netbian.com/file/2023/1208/01023566Ad0.jpg)`;
             }else if((countTime + 15) % 10 == 9){    // 第2张图片默认无图片，比第一张延迟5s开始动画，+5保证了在第2秒开始加载图片
                 countImg += 1;
-                bg2Container.style = `background-image: url(http://img.netbian.com/file/2023/1113/2058480iQjg.jpg)`;
+                bg2Container.style = `background-image: url(http://img.netbian.com/file/2023/1208/01023566Ad0.jpg)`;
             }
-        }, 600);
+        }, 1000);
     </script> 
  
  </body>
