@@ -1,0 +1,275 @@
+<body>
+<ig>hover btn</ig>
+</body>
+</html>
+<style>
+    * {
+        /* 将文档中所有元素的外边距和内边距初始化为0 */
+        margin: 0; padding: 0;
+    }
+
+
+
+/*btn-default：基本样式按钮*/
+/*btn-primay：蓝色按钮*/
+/*btn-success：绿色按钮*/
+/*btn-error：红色按钮*/
+/*btn-warning：黄色按钮*/
+/*btn-anim1：按钮爆炸动画效果*/
+/*btn-anim2：按钮左到右动画效果*/
+/*btn-anim3：按钮左上角爆炸动画效果*/
+/*btn-anim4：按钮下到上动画效果*/
+ /**/
+/**/
+
+
+body {
+/* 设置背景色为黑色 */
+        background-color: #000;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+ 
+/* 爆炸：中心爆炸，角落爆炸 */
+@keyframes anim1 {
+	from {
+		width: 1px;
+		height: 1px;
+		opacity: 1;
+		transform: scale(0);
+		background-color: #FFFFFF;
+	}
+ 
+	to {
+		width: 1px;
+		height: 1px;
+		opacity: 0;
+		transform: scale(100);
+		background-color: #FFFFFF;
+	}
+}
+ 
+/* 左边到右边 */
+@keyframes atob2 {
+	from {
+		width: 1px;
+		opacity: 1;
+		transform: scale(0);
+		background-color: #FFFFFF;
+	}
+ 
+	to {
+		width: 1px;
+		opacity: 0;
+		transform: scale(100);
+		background-color: #FFFFFF;
+	}
+}
+ 
+/* 下边到上边*/
+@keyframes atob4 {
+	from {
+		height: 1px;
+		opacity: 1;
+		transform: scale(0);
+		background-color: #FFFFFF;
+	}
+ 
+	to {
+		height: 1px;
+		opacity: 0;
+		transform: scale(00);
+		background-color: #FFFFFF;
+	}
+}
+ 
+.clearfix::after {
+	content: '';
+	display: flex;
+	clear: both;
+}
+ 
+.warp {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #23B8FF;
+}
+ 
+.warp .btns {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 500px;
+	margin-left: -250px;
+}
+ 
+/* 
+公共样式 不依赖其他 
+*/
+.btn-default {
+	position: relative;
+	display: inline-block;
+	padding: 6px 13px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #FFF;
+	overflow: hidden;
+}
+ 
+.btn-default.btn-primay {
+	background-color: #337ab7;
+}
+ 
+.btn-default.btn-s12344 {
+	background-color: #215150;
+}
+ 
+.btn-default.btn-error {
+	background-color: #d9534f;
+}
+ 
+.btn-default.btn-warning1 {
+	background-color: #f0ad4e;
+}
+ 
+/* 中心爆炸 */
+.btn-default.btn-anim1:hover::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 49%;
+	
+	animation: anim1 .5s linear forwards;
+}
+ 
+/* 左边到右边 或者右边到左边 */
+.btn-default.btn-anim2:hover::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 49%;
+	height: 100px;
+	animation: atob2 .5s linear forwards;
+}
+ 
+/* 左上角到右下角 */
+.btn-default.btn-anim3:hover::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	
+	height: 10px;
+	animation: anim1 .5s linear forwards;
+}
+ 
+/* 下边到上边 */
+.btn-default.btn-anim4:hover::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 10px;
+	border-radius: 50%;
+	animation: atob4 .5s linear forwards;
+}
+
+    ig {
+        /* 开启绝对定位,目的是为了配合left与top属性,将脱离正常文档流的a元素移动到屏幕中心【left和top必须搭配position才会生效(position中的static值除外)】  */
+        position: absolute;
+        /* 向右移动整个屏幕50%宽度的距离 */
+        left: 50%;
+        top: 50%;
+        /* 向x与y轴的负方向各自偏移自身(a元素)50%长度的距离【加上left和top，相当于刚好位于屏幕的正中心】 */
+        transform: translate(-50%, 0%);
+        width: 80px;
+        height: 50px;
+        color: white;
+        line-height: 25px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 20px;
+        /* 设置背景颜色渐变 */
+        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        /* 取消链接下划线 */
+        text-decoration: none;
+        /* 将英文小写字母转换为大写 */
+        text-transform: uppercase;
+        /* 将背景图篇放大为原来的4倍，配合animation完成流动 */
+        background-size: 400%;
+        z-index: 1;
+    }
+
+    ig:hover {
+        /* animation要和@keyframes搭配使用，move是随意起的一个动画名称，也是@keyframes规则的名称，
+           8s表示一个循环，infinite表示无限循环下去，alternate表示动画会在每次循环之间交替反向播放 */
+        animation: move 8s infinite alternate;
+    }
+    @keyframes move {
+        /* 100%表示最终时间达到位置，%0可以省略，默认初始 */
+        100% {
+            background-position: -400% 0;
+        }
+    }
+    ig:before {
+        content: "";
+        position: absolute;
+        left: -5px;
+        right: -5px;
+        top: -5px;
+        bottom: -5px;
+        /* 以下三个和a元素保持一致 */
+        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+        background-size: 400%;
+        border-radius: 50px;
+        /* 将元素内容模糊化 */
+        filter: blur(20px);
+        z-index: -1;
+    }
+    ig:hover:before {
+        animation: move 8s infinite alternate;
+    }
+    
+    
+     /* 设置按钮的基本样式 */
+    .button1 {
+        border: none; /* 去掉边框 */
+        border-radius: 5px; /* 圆角 */
+        padding: 10px 20px; /* 按钮内的文字边距 */
+        font-size: 16px; /* 按钮文字大小 */
+        font-weight: bold; /* 按钮文字加粗 */
+        color: #fff; /* 按钮文字颜色 */
+        text-decoration: none; /* 取消文字下划线 */
+        background-color: #FFD700; /* 设置按钮背景色为黄色 */
+    }
+
+    /* 鼠标悬停时按钮颜色改变 */
+    .button1:hover {
+        background-color: #FFD969; /* 将按钮背景色改为浅黄色 */
+    } 
+</style>
