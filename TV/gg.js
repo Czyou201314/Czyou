@@ -35,7 +35,7 @@ Zyou·𣲵设置小提议:
 Zyou·渡核心包下载:
 
 
-   https://czyou.pages.dev/TV/hxb.zip
+   https://czyou.pages.dev/TV/hxbao.zip
 
 Zyou·渡核心包载入:
 
