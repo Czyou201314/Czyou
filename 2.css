@@ -263,7 +263,7 @@ body {
         padding: 10px 20px; /* 按钮内的文字边距 */
         font-size: 16px; /* 按钮文字大小 */
         font-weight: bold; /* 按钮文字加粗 */
-        color: #fff; /* 按钮文字颜色 */
+        color: #000000; /* 按钮文字颜色 */
         text-decoration: none; /* 取消文字下划线 */
         background-color: #FFD700; /* 设置按钮背景色为黄色 */
     }
