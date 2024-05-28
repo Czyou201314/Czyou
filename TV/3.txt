@@ -441,6 +441,28 @@ JJ斗地主,http://43.138.170.29:35455/douyu/488743
 
 
 虎牙轮播,#genre#
+小品轮播,http://tc-tct.douyucdn2.cn/dyliveflv3/10153463r0oBSmAG.flv?wsAuth=327f9acf257abce343423d9ca46ef9ae&token=cpn-androidmpro-0-10153463-ee6c60cb51b36154827caa4c2303ce140c03be821c37ac32&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play3
+动漫轮播,http://epg.112114.xyz/douyu/206858
+电影轮播,http://hpull.kktv8.com/livekktv/99592190/playlist.m3u8
+豆瓣轮播,http://gdctyuncdnct.inter.ptqy.gitv.tv/tslive/l1/c51_lb_112_1080P_t10/ejaKi6hgecoS8qnbMRLc3GLef2sC3JxWk5pdTCNl56ajxvaCY56HnqeWtoUxTuVn0hSH03dBgj6yqRlnZckjUCid2gElndQECT2mvyhdQIENCNHdDQTVR2SWSIObw5Ux-ES-sfEYNsXrT2gPRGNZLvH_gPveccodE7KdzPoBw08cYq1qpFxIk9V3J1s_UR1Q0H3dj-kUL_4_o096ygfhtu4Pxbda4vRBVEwov2ioFZ9tPUTqc1gjG2y7CMi-RsQgCCp6eF6GTwo-8WkFBgQvFw/18e977f10da6c14a23bf8eca403e5a862/c51_lb_112_1080P_t10.m3u8?key=0fd320ecf4dd91c42153d1c126098ba94&dis_t=1675659335&z=gdctyun_ct&pv=0.2
+华语轮播,http://gdctyuncdnct.inter.ptqy.gitv.tv/tslive/l1/c51_lb_114_1080P_t10/5oXHNY85CMV-awVVNp__gkv8fLEetKTczMrRmWtO7gLNNKzP3X0n8BK-unM-w6_TrQWRPfRx37EGf0fT9gW80EccFBHWp73lo8SXxA_bZu2BxqdZ49JSjVdh_osnBzhipawG-v0ngis-SglhpXn9pCGaDfiarM_ajS7Dr-o3gPWCfMl1JUYxMhXXnqfrYTeSFWSz9N2i4j7pQaWAxyIXN8Pz_o7isxU_4UqBrhwVJbahiZkmhRd1Fbg2AP_uyFugTRNvtL38QaCn9u2iw91ZRQ/17d4e3ddd1bf012dd312d04a3dd372c52/c51_lb_114_1080P_t10.m3u8?key=0fd320ecf4dd91c42cab5f837938bf456&dis_t=1675659864&z=gdctyun_ct&pv=0.2
+儿歌轮播1,http://huaweicdnnewct.inter.iqiyi.com/tslive/l1/c57_lb_242_600_t10/oFyEExpIprfMsS9lffc69ze0ngeCUqPLJMsJTGilb_l5g9I-7beRclNIWjC2EipQf_Hyz4JHqxNjNpCfEjRjR-Gqi1m94IFLP161_jUgGzNM27UNiIz3C1VTJ11gy7w9O_OEtVWTBwD5VtzrVnirKIWVusnM2dt8vhxzqNMEPUXZuDZzaYk09rEaL0fUqbJGIhvEeQM7WuiIigByPxYhswDdna8uIB0MCv7RRuDvZ8HaA0RtBMXz7YFD_zyeblxKFgqODqyHGS66SaSlrk0Jng/17f5d5f3cca18548896028f06796a2345/c57_lb_242_600_t10.m3u8?key=0fd320ecf4dd91c42a897cb07c34dd1ff&dis_t=1676271049&z=huaweicdnnew_ct&pv=0.2
+儿歌轮播2,http://bj.new1cloud.com/bdcdncmn3-inter-71edge-com.new1cloud.com/tslive/c57_lb_242_600_t10/c57_lb_242_600_t10.m3u8?key
+电视剧轮播,http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1453059740
+好莱坞轮播,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u
+电影1轮播,http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=1353059120
+电影2轮播,http://hpull.kktv8.com/livekktv/99592190/playlist.m3u8
+恐怖电影,http://epg.112114.xyz/douyu/263824
+恐怖经典,http://epg.112114.xyz/douyu/1165374
+经典电影,http://epg.112114.xyz/douyu/74374
+贝爷MAX，http://epg.112114.xyz/douyu/4332
+蓝光大片,http://jxiptv.xn--9kqp7k2rd.com/svip/yy.php?t=24066336
+豆瓣高分,http://epg.112114.xyz/douyu/8770422
+随意轮播1,https://cn-sccd-ct-01-10.bilivideo.com/live-bvc/553680/live_298204611_4339573_1500/index.m3u8
+lunbo2,https://cn-sccd-ct-01-10.bilivideo.com/live-bvc/826950/live_29395003_7062664/index.m3u8
+lunbo3,http://epg.112114.xyz/douyu/9429545
+lunbo4,http://epg.112114.xyz/douyu/7298973
+lunbo5,http://epg.112114.xyz/douyu/6537888
 
 电影_星爷,http://124.248.69.76:35455/huya/11342412
 电影_英叔,http://124.248.69.76:35455/huya/11342421
